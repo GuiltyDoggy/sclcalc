@@ -12,7 +12,6 @@ if not os.path.isfile(csv_file):
     exit(1)
 
 db_file = "electric_usage.db"
-chunksize = 10000
 
 # --- CONNECT TO DATABASE ---
 conn = sqlite3.connect(db_file)
