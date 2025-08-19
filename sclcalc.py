@@ -70,7 +70,7 @@ with open(csv_file, newline='', encoding='utf-8') as f:
 
 conn.commit()
 
-# --- UPDATE TOU RATES ---#
+# --- UPDATE TOU RATES ---
 cursor.execute("""
 UPDATE usage
 SET pmo = CASE
@@ -118,7 +118,7 @@ conn.commit()
 #for row in cursor.fetchall():
 #    print(row)
 
-# --- PRINT ORIGINAL COST ---#
+# --- PRINT ORIGINAL COST ---
 cursor.execute("SELECT SUM(import_kwh) FROM usage")
 total_kwh = cursor.fetchone()[0] or 0.0  # Handle None if table is empty
 print(f"Total usage: {total_kwh:.2f} kWh")
@@ -160,3 +160,9 @@ conn.close()
 
 # --- PRINT OUTCOME ---#
 print(f"\nYour savings: ${total_cost - tou_cost:.2f}")
+
+# --- CLEANUP SQLITE DB FILE ---
+if os.path.exists(db_file):
+    os.remove(db_file)
+else:
+    print(f"File not found: {db_file}")
