@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not sclcalc.py
+!sclcalc.py
+
+# Don't ignore .gitignore itself
+!.gitignore
