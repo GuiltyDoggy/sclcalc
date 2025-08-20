@@ -15,11 +15,11 @@ d. On the following screen, select the option for "Export usage for a range of d
 ![Export Data](blob/ExportData.png)
 e. A .zip file will be downloaded to your computer. Extract the .zip file. You should have a file named "scl_electric_usage_interval_data_... .csv"
 
-### Download the python script
+### 2. Download the python script
 From this GitHub page, go to "Code" and "Download Zip". Extract the zip file (sclcalc-main.zip) that is downloaded.
 ![Download Zip](blob/DownloadZip.png)
 
-### Running the script
+### 3. Running the script
 
 #### Linux and MacOS
 a. Open a terminal window and navigate to the directory in which the script you downloaded and extracted is. 
