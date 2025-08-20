@@ -1,6 +1,9 @@
 # sclcalc
 Calculates savings by switching to Seattle City Light's Time-of-Use rates.
+
 ![Output sample screenshot](blob/OutputSample.png)
+
+You will need to manually download your own usage data from Seattle City Light's online portal. This script runs completely locally on your own computer. No data is transmitted; all data remains on your computer only. 
 
 ## How to Use
 
