@@ -27,13 +27,19 @@ From this GitHub page, go to "Code" and "Download Zip". Extract the zip file (sc
 
 #### Linux and MacOS
 a. Open a terminal window and navigate to the directory in which the script you downloaded and extracted is. 
+
 b. Run by typing `python3 sclcalc.py`
+
 c. The script will ask for the path to your CSV file that was downloaded from SCL. Enter the full path (e.g. - `/home/<user>/Downloads/scl_electric_usage_... .csv`)
 
 #### Windows
 a. Navigate to your Downloads folder, and then to the folder that was extracted from sclcalc-main.zip (e.g. - C:\Users\<user>\Downloads\sclcalc-main\sclcalc-main)
+
 b. Right click in the window and select "Open in Terminal"
+
 c. In the command prompt, run `python3`. If you don't have Python installed, the Microsoft Store will open to have you install it. Close the Terminal window.
+
 d. Repeat step (a) and open a new Terminal window in the sclcalc-main folder. Run `python3 sclcalc.py`
+
 e. Enter the path to the downloaded CSV file by finding the file in File Explorer, right-click Copy the file, then Paste into the Terminal window.
 ![Windows Shell](blob/WindowsShell.png)
