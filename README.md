@@ -7,12 +7,16 @@ Calculates savings by switching to Seattle City Light's Time-of-Use rates.
 ### 1. Download your data from Seattle City Light
 a. Log into your SCL account and click on "View Usage Details".
 ![View Usage Details](blob/ViewUsageDetails.png)
+
 b. Click on "View Usage Details"" tab on the following screen.
 ![View Usage Details tab](blob/ViewUsageDetails2.png)
+
 c. Click on the "Green Button / Download my data" on the lower right of the screen.
 ![Green Button](blob/GreenButton.png)
+
 d. On the following screen, select the option for "Export usage for a range of days". Ensure the "CSV" Format is selected, and click "Export". Note: currently this tool is most accurate if the date range falls in 2024 or 2025.
 ![Export Data](blob/ExportData.png)
+
 e. A .zip file will be downloaded to your computer. Extract the .zip file. You should have a file named "scl_electric_usage_interval_data_... .csv"
 
 ### 2. Download the python script
