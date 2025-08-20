@@ -1,5 +1,5 @@
 # sclcalc
-Calculates savings by switching to Seattle City Light's Time-of-Use rates.
+Calculates potential savings by switching to Seattle City Light's Time-of-Use rates based on your past usage data.
 
 ![Output sample screenshot](blob/OutputSample.png)
 
