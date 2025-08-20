@@ -38,6 +38,7 @@ a. Navigate to your Downloads folder, and then to the folder that was extracted 
 b. Right click in the window and select "Open in Terminal"
 
 c. In the command prompt, run `python3`. If you don't have Python installed, the Microsoft Store will open to have you install it. Close the Terminal window.
+
 ![Microsoft Store](blob/MicrosoftStore.png)
 
 d. Repeat step (a) and open a new Terminal window in the sclcalc-main folder. Run `python3 sclcalc.py`
