@@ -105,15 +105,7 @@ END;
 """)
 conn.commit()
 
-# Sundays are marked as 'o'
-cursor.execute("""
-UPDATE usage
-SET pmo = 'o'
-WHERE strftime('%w', date) = '0';
-""")
-conn.commit()
-
-# --- PRINT RESULTS ---
+# --- (debug) PRINT RESULTS ---
 #cursor.execute("SELECT * FROM usage LIMIT 100")
 #for row in cursor.fetchall():
 #    print(row)
