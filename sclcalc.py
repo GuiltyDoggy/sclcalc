@@ -1,3 +1,5 @@
+# Disclaimer: This script was written with the help of Microsoft Copilot. 
+
 import os
 import csv
 import sqlite3
@@ -6,7 +8,6 @@ from datetime import datetime
 # --- CONFIG ---
 csv_file = input("Enter the path to your CSV file: ").strip()
 
-# Optional: validate the file exists
 if not os.path.isfile(csv_file):
     print(f"Error: File '{csv_file}' not found.")
     exit(1)
