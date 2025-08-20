@@ -6,3 +6,6 @@
 
 # Don't ignore .gitignore itself
 !.gitignore
+
+# Read Me Files
+!blob/
